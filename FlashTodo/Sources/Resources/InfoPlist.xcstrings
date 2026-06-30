@@ -1,0 +1,22 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "NSRemindersFullAccessUsageDescription" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FlashTodo needs access to Reminders to create and edit your todos."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FlashTodo 需要访问提醒事项，用于创建和编辑你的待办。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

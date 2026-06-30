@@ -1,0 +1,414 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "action.capture" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Capture" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "记录" } }
+      }
+    },
+    "action.delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "删除" } }
+      }
+    },
+    "action.edit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "编辑" } }
+      }
+    },
+    "action.ok" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "好" } }
+      }
+    },
+    "action.quit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quit" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "退出" } }
+      }
+    },
+    "action.refresh" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Refresh" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "刷新" } }
+      }
+    },
+    "action.save" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "保存" } }
+      }
+    },
+    "action.settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "设置" } }
+      }
+    },
+    "action.toggleComplete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Toggle complete" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "切换完成状态" } }
+      }
+    },
+    "app.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo" } }
+      }
+    },
+    "capture.placeholder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Capture a thought..." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "快速记录一个念头..." } }
+      }
+    },
+    "empty.noList" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No reminder list selected" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "未选择提醒事项清单" } }
+      }
+    },
+    "empty.noList.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose a list in Settings before capturing tasks." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "请先在设置中选择一个系统提醒事项清单。" } }
+      }
+    },
+    "empty.noTasks" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Nothing urgent now" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "现在没有紧急待办" } }
+      }
+    },
+    "empty.noTasks.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Type a quick note above and press Return to save it to Reminders." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "在上方输入念头并按回车，就会写入系统提醒事项。" } }
+      }
+    },
+    "error.accessDenied" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminders access is not available." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "无法访问提醒事项。" } }
+      }
+    },
+    "error.emptyTitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task title cannot be empty." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "任务标题不能为空。" } }
+      }
+    },
+    "error.listNotFound" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The selected reminder list no longer exists." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "选择的提醒事项清单已不存在。" } }
+      }
+    },
+    "error.taskNotFound" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The task no longer exists." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "这条任务已不存在。" } }
+      }
+    },
+    "filter.showFuture" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Show future" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "显示未来" } }
+      }
+    },
+    "list.none" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No lists" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "没有清单" } }
+      }
+    },
+    "list.notSelected" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No list selected" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "未选择清单" } }
+      }
+    },
+    "language.automatic" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Automatic" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "自动" } }
+      }
+    },
+    "language.english" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "English" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "English" } }
+      }
+    },
+    "language.zhHans" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Simplified Chinese" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "简体中文" } }
+      }
+    },
+    "menu.about" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About FlashTodo" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "关于 FlashTodo" } }
+      }
+    },
+    "menu.checkUpdates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Check for Updates..." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "检查更新..." } }
+      }
+    },
+    "menu.github" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "GitHub" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "GitHub 地址" } }
+      }
+    },
+    "permission.denied.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enable full Reminders access in System Settings, then return to FlashTodo." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "请在系统设置中打开提醒事项完整访问权限，然后回到 FlashTodo。" } }
+      }
+    },
+    "permission.denied.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminders access is off" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "提醒事项权限未开启" } }
+      }
+    },
+    "permission.openSettings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open System Settings" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "打开系统设置" } }
+      }
+    },
+    "permission.prompt.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo saves directly into Apple Reminders, so it needs full access before it can show or edit tasks." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo 会直接写入 Apple 提醒事项，因此需要完整访问权限才能显示和编辑任务。" } }
+      }
+    },
+    "permission.prompt.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connect Reminders" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "连接提醒事项" } }
+      }
+    },
+    "permission.request" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Allow Reminders Access" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "授权访问提醒事项" } }
+      }
+    },
+    "permission.status.denied" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Denied" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "已拒绝" } }
+      }
+    },
+    "permission.status.fullAccess" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Full access" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "完整访问" } }
+      }
+    },
+    "permission.status.notDetermined" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Not requested" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "尚未授权" } }
+      }
+    },
+    "permission.status.restricted" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Restricted" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "受限制" } }
+      }
+    },
+    "permission.status.unknown" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unknown" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "未知" } }
+      }
+    },
+    "permission.status.writeOnly" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Write only" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "仅写入" } }
+      }
+    },
+    "priority.high" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "High" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "高" } }
+      }
+    },
+    "priority.low" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Low" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "低" } }
+      }
+    },
+    "priority.medium" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Medium" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "中" } }
+      }
+    },
+    "priority.none" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No priority" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "无优先级" } }
+      }
+    },
+    "section.future" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Future" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "未来" } }
+      }
+    },
+    "section.overdue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Overdue" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "逾期" } }
+      }
+    },
+    "section.today" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "今天" } }
+      }
+    },
+    "section.undated" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Inbox" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "Inbox" } }
+      }
+    },
+    "settings.list" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminder list" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "提醒事项清单" } }
+      }
+    },
+    "settings.language" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Language" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "语言" } }
+      }
+    },
+    "settings.launchAtLogin" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Launch at login" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "开机自动运行" } }
+      }
+    },
+    "settings.permission" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reminders permission" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "提醒事项权限" } }
+      }
+    },
+    "settings.storageNote" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo stores tasks only in Apple Reminders. Local preferences only remember the selected list, language, and panel options." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo 只把任务存入 Apple 提醒事项。本地偏好只记住所选清单、语言和面板选项。" } }
+      }
+    },
+    "task.dueDate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Due date" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "截止日期" } }
+      }
+    },
+    "task.date.add" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add date" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "添加日期" } }
+      }
+    },
+    "task.date.custom" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Custom..." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "自定义..." } }
+      }
+    },
+    "task.date.nextWeek" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next week" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "下周" } }
+      }
+    },
+    "task.date.today" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "今天" } }
+      }
+    },
+    "task.date.tomorrow" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tomorrow" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "明天" } }
+      }
+    },
+    "task.date.weekend" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This weekend" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "本周末" } }
+      }
+    },
+    "task.hasDueDate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Has due date" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "设置截止日期" } }
+      }
+    },
+    "task.noDueDate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No date" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "无日期" } }
+      }
+    },
+    "task.notes" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notes" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "备注" } }
+      }
+    },
+    "task.priority" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Priority" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "优先级" } }
+      }
+    },
+    "task.priority.add" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Priority" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "优先级" } }
+      }
+    },
+    "task.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Title" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "标题" } }
+      }
+    },
+    "updates.unavailable.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Automatic updates are not configured yet. You can follow the GitHub repository for new releases." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "自动更新暂未配置。你可以通过 GitHub 仓库关注后续版本。" } }
+      }
+    },
+    "updates.unavailable.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Updates are not available yet" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "暂未接入自动更新" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
