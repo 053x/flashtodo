@@ -313,6 +313,12 @@
         "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "提醒事项权限" } }
       }
     },
+    "settings.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "设置" } }
+      }
+    },
     "settings.storageNote" : {
       "localizations" : {
         "en" : { "stringUnit" : { "state" : "translated", "value" : "FlashTodo stores tasks only in Apple Reminders. Local preferences only remember the selected list, language, and panel options." } },

@@ -1,4 +1,5 @@
 import SwiftUI
+import AppKit
 
 struct SettingsView: View {
     @Bindable var store: ReminderStore
@@ -62,6 +63,7 @@ struct SettingsView: View {
             }
         }
         .formStyle(.grouped)
+        .background(SettingsWindowTitleSetter(title: settingsWindowTitle))
         .padding(20)
         .frame(width: 460, height: 360)
         .task {
@@ -82,5 +84,47 @@ struct SettingsView: View {
 
     private var statusColor: Color {
         store.authorizationStatus.canReadAndWrite ? .green : .orange
+    }
+
+    private var settingsWindowTitle: String {
+        switch store.appLanguage {
+        case .automatic:
+            String(localized: "settings.title")
+        case .simplifiedChinese:
+            "设置"
+        case .english:
+            "Settings"
+        }
+    }
+}
+
+private struct SettingsWindowTitleSetter: NSViewRepresentable {
+    let title: String
+
+    func makeNSView(context: Context) -> TitleSettingView {
+        let view = TitleSettingView()
+        view.title = title
+        return view
+    }
+
+    func updateNSView(_ nsView: TitleSettingView, context: Context) {
+        nsView.title = title
+    }
+
+    final class TitleSettingView: NSView {
+        var title: String = "" {
+            didSet {
+                updateWindowTitle()
+            }
+        }
+
+        override func viewDidMoveToWindow() {
+            super.viewDidMoveToWindow()
+            updateWindowTitle()
+        }
+
+        private func updateWindowTitle() {
+            window?.title = title
+        }
     }
 }
